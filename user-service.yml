@@ -11,3 +11,7 @@ datasource:
   username: root
   password: root
   driver-class-name: com.mysql.cj.jdbc.Driver
+jpa:
+  hibernate.ddl-auto: update
+  generate-ddl: true
+  show-sql: true
