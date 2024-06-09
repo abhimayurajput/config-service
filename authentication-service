@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: authentication-service
+
+server:
+  port: 8082
+
+#database configuration
+datasource:
+  url: jdbc:mysql://localhost:3306/authdb
+  username: root
+  password: root
+  driver-class-name: com.mysql.cj.jdbc.Driver
+
+#jwt configuration
+jwt:
+  secret: mysecretkey
+  expiration: 3600
+
+#other service specific configuration
+auth:
+  login-message: "welcome to the auth service"
