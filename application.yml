@@ -1,9 +1,10 @@
 server:
-  port: 8181
+  port: 0
 
 spring:
   profiles:
     active: default
+    
 logging:
   level:
     root: INFO
