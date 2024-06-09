@@ -9,12 +9,12 @@ server:
   port: 8081
 
 #Database configuration
-datasource:
-  url: jdbc:mysql://localhost:3306/userdb
-  username: root
-  password: root
-  driver-class-name: com.mysql.cj.jdbc.Driver
-jpa:
-  hibernate.ddl-auto: update
-  generate-ddl: true
-  show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/userdb
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
